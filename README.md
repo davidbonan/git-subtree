@@ -62,10 +62,11 @@ Pulls subtree changes from subtree remote.
 ### Push
 
 ```bash
-$ gitsbt push <subtree>
+$ gitsbt push <subtree> <branch>
 ```
 
 Pushes subtree changes. 
+if the branch is not defined, the branch in subtrees.json will be used
 
 ### Commit
 
