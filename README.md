@@ -79,7 +79,7 @@ if the branch is not defined, the branch in subtrees.json will be used
 ### Push All
 
 ```bash
-$ gitsbt push <branch>
+$ gitsbt pushall <branch>
 ```
 
 Pushes all subtrees changes. 
