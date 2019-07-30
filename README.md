@@ -59,6 +59,14 @@ $ gitsbt pull <subtree>
 
 Pulls subtree changes from subtree remote. 
 
+### Pull All
+
+```bash
+$ gitsbt pullall
+```
+
+Pulls all subtrees changes from subtrees remotes. 
+
 ### Push
 
 ```bash
@@ -66,6 +74,15 @@ $ gitsbt push <subtree> <branch>
 ```
 
 Pushes subtree changes. 
+if the branch is not defined, the branch in subtrees.json will be used
+
+### Push All
+
+```bash
+$ gitsbt push <branch>
+```
+
+Pushes all subtrees changes. 
 if the branch is not defined, the branch in subtrees.json will be used
 
 ### Commit
