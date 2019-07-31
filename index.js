@@ -40,6 +40,8 @@ if (args.length > 0) {
     console.log('init\tInitialize project subtrees');
     console.log('add\tCreate remote, fetch and add subtree folder');
     console.log('pull\tPull changes from subtree');
+    console.log('pullall\tPull changes from subtrees');
     console.log('push\tPush changes to subtree');
+    console.log('pushall\tPush changes to subtrees');
     console.log('commit\tCommit subtree folder changes');
 }
